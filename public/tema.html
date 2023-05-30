@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="contenedor">
+    <header>
+        <h1 class="centrado"> EL BOX MODEL</h1>
+    </header>
+    <nav>
+        <ul class="menu-horizontal">
+            <li> <a href="index.html"> Inicio</a> </li>
+            <li> <a href="audio.html"> Audio</a> </li>
+            <li> <a href="tema.html"> Tema </a> </li>
+        </ul>
+    </nav>
+    <aside>
+        <ul class="menu-aside">
+            <li> <a href="index.html"> Inicio</a> </li>
+            <li> <a href="audio.html"> Audio del tema</a> </li>
+            <li> <a href="tema.html">  El tema</a> </li>
+            <li> <a href="nosotros.html">  Nosotros</a> </li>
+
+        </ul>
+    </aside>
+    <main>
+        
+        <section>
+            <h2>  Introduccion al modelo de caja</h2>
+    
+            <p>
+                El modelo de caja (Box Model) es una representación visual que se utiliza en diseño web para entender cómo se estructuran y presentan los elementos de una página. El modelo de caja se refiere a la idea de que cada elemento de una página web se representa como una caja rectangular, compuesta por cuatro regiones principales: el contenido (content), el relleno (padding), el borde (border) y el margen (margen)
+            </p>
+        
+            <p>
+                El contenido es el área donde se muestra el contenido real del elemento, como el texto o las imágenes. El relleno es el espacio que rodea al contenido dentro de la caja, mientras que el borde es la línea que rodea el relleno. El margen es el espacio entre la caja del elemento y los elementos cercanos.
+            </p>
+            
+            
+    
+            <h3> Contenido</h3>
+    
+            <p>
+            
+                El contenido se refiere al área dentro de la caja donde se muestra el contenido real del elemento, como el texto, las imágenes o los vídeos. El tamaño y la posición del contenido están determinados por el ancho y la altura especificados para el elemento.
+            </p>
+            <P>
+                El contenido es el componente más importante de una caja, ya que es lo que los usuarios ven y consumen. Por lo tanto, es importante asegurarse de que el contenido esté optimizado para una visualización efectiva en diferentes dispositivos y tamaño de pantalla. Los diseñadores web deben considerar cuidadosamente el tamaño, la legibilidad y la organización del contenido para crear una experiencia de usuario atractiva y efectiva.
+            </P>
+            <h3>El paddin</h3>
+            <p> 
+                Se refiere al espacio entre el contenido de un elemento y su borde. Es decir, es el espacio adicional que se agrega alrededor del contenido de una caja para separarlo visualmente del borde.
+
+El padding se puede ajustar con propiedades de CSS como padding-top, padding-bottom, padding-left y padding-right. Estas propiedades permiten controlar el tamaño del espacio de relleno en cada lado de la caja por separado
+            </p>
+
+            <center><img src="Imagen/MoxModel-contenido.png" alt=" " width="300px" height="300px"></center>
+
+            <h3>El border</h3>
+
+            <p>
+                Se refiere a la línea que rodea el padding de un elemento. Es decir, es el borde visible que se agrega alrededor del padding y el contenido de una caja para separarlo visualmente de otros elementos en la página.
+
+                El border se puede ajustar con propiedades de CSS como border-width, border-style y border-color. Estas propiedades permiten controlar el ancho, el estilo y el color del borde de una caja.
+            </p>
+            <center><img src="Imagen/MoxModel-border-2.png" alt=" " width="300px" height="300px"></center>
+            <p>
+                El borde puede ser útil para resaltar un elemento en una página, crear un marco visual para el contenido, o separar elementos visualmente en el diseño de la página. También se puede utilizar para indicar el estado de un elemento, como el foco o la selección.
+
+Es importante tener en cuenta que el tamaño del borde afecta al tamaño total de la caja. Por lo tanto, el tamaño total de la caja debe ser considerado cuidadosamente al establecer el tamaño del borde para evitar que el contenido se vea demasiado comprimido o que la caja sea demasiado grande
+            </p>
+
+             <h3>El margin</h3>
+
+            <p>
+                Es el espacio entre el borde de un elemento y los elementos cercanos. Es decir, es el espacio adicional que se agrega alrededor del borde de una caja para separarlo visualmente de otros elementos en la página.
+
+El margen se puede ajustar con propiedades de CSS como margin-top, margin-bottom, margin-left y margin-right. Estas propiedades permiten controlar el tamaño del espacio de margen en cada lado de la caja por separado..
+    
+            </p>
+
+            <img src="Imagen/margen.png" alt=" " width="300px" height="300px">
+            <p>
+                El margen puede ser útil para crear diseños más equilibrados y espaciadores, y también puede ayudar a evitar la superposición de elementos en la página. El uso adecuado del margen también puede ayudar a crear diseños más adaptativos y responsivos, ya que puede ajustarse para adaptarse a diferentes tamaños de pantalla y dispositivos.
+            </p>
+            <h3>outline</h3>
+            <p>
+                Se refiere a una línea que rodea un elemento, similar al borde (border), pero con algunas diferencias clave.
+
+A diferencia del borde, el contorno no afecta al tamaño total de la caja, ya que se sitúa fuera del borde y no se considera en el cálculo de la anchura y altura totales de la caja. Además, el esquema no interfiere con el diseño de la página ni con el posicionamiento de los elementos adyacentes.
+            </p>
+            <center><img src="Imagen/outline.png" alt=" " width="500px" height="300px"></center>
+            <p>
+                El esquema se utiliza a menudo para resaltar un elemento en la página, como un enlace o un botón, cuando se enfoca o se selecciona. El contorno por defecto suele ser una línea delgada y punteada alrededor del elemento.
+
+El contorno se puede personalizar con diferentes propiedades de CSS, como contorno-ancho (ancho), contorno-estilo (estilo) y contorno-color (color). Además, se pueden utilizar valores especiales, como contorno-offset, para controlar la separación entre el contorno y el borde del elemento.
+            </p>
+
+            <p>
+                Comprender el modelo de caja es importante para los desarrolladores web porque afecta el diseño y el posicionamiento de los elementos HTML en una página web. Al ajustar el relleno, el borde y el margen de un elemento, los desarrolladores pueden controlar su tamaño, posición y espaciado en relación con otros elementos de la página. El modelo de caja también juega un papel en el diseño web receptivo, ya que ayuda a los desarrolladores a crear diseños que pueden adaptarse a diferentes dispositivos y tamaños de pantalla.
+            </p>
+
+        </section>
+    
+    </main>
+    <footer class="centrado">
+        <br>
+         Este es el pie  de página
+         <br>
+    </footer>
+</body>
+</html>
